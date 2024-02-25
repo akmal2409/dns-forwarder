@@ -1,4 +1,4 @@
-package io.github.akmal2409;
+package io.github.akmal2409.dnsforwarder.server;
 
 public class StartupFailedException extends RuntimeException {
 
