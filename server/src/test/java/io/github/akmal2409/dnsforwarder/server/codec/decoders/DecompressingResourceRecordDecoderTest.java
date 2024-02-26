@@ -20,8 +20,6 @@ class DecompressingResourceRecordDecoderTest {
     );
     final var encodedLabels = CodecUtils.encodedLabels(domainLabels);
 
-    final var bytes = new byte[encodedLabels.length];
-
     final var decoder = new DecompressingResourceRecordDecoder(encodedLabels, new LabelOffsetCollection());
 
     assertThatThrownBy(() -> decoder.decodeStartingAt(0))

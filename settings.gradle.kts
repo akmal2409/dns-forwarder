@@ -1,2 +1,4 @@
-rootProject.name = "dnsforwarder.server"
+rootProject.name = "dnsforwarder"
 
+includeBuild("plugins")
+include("server")
